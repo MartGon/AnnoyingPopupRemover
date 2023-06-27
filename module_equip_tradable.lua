@@ -51,7 +51,7 @@ APR.Modules[ThisModule].hidden_msg = L[ThisModule .. "_hidden"]
 APR.Modules[ThisModule].shown_msg = L[ThisModule .. "_shown"]
 
 -- This Boolean tells us whether this module works in Classic.
-APR.Modules[ThisModule].WorksInClassic = false
+APR.Modules[ThisModule].WorksInClassic = true
 
 -- This Boolean tells us whether to disable this module during combat.
 APR.Modules[ThisModule].DisableInCombat = true
